@@ -8,9 +8,9 @@ import org.junit.Test;
 import rx.observers.TestSubscriber;
 import sun.plugin.dom.exception.InvalidStateException;
 
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.TestCase.assertTrue;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 @SuppressWarnings("unchecked")
 public abstract class AbstractPreferenceTest<T> {
