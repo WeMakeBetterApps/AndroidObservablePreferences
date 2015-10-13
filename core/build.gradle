@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.6
+
+repositories {
+    jcenter()
+}
+
+configurations { providedCompile }
+sourceSets.main.compileClasspath += configurations.providedCompile
+sourceSets.test.compileClasspath += configurations.providedCompile
+sourceSets.test.runtimeClasspath += configurations.providedCompile
+
+dependencies {
+    providedCompile 'io.reactivex:rxjava:1.0.14'
+    testCompile 'junit:junit:4.11'
+}
