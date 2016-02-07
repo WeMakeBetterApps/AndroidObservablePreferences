@@ -1,7 +1,5 @@
 package com.wmba.preference;
 
-import com.wmba.preference.Preference;
-
 import rx.Observable;
 import rx.subjects.BehaviorSubject;
 
