@@ -1,7 +1,7 @@
 package com.wmba.preference.test;
 
 import com.wmba.preference.Preference;
-import com.wmba.preference.android.persist.BooleanPersistentPreference;
+import com.wmba.preference.BooleanPersistentPreference;
 
 public class BooleanPersistentPreferenceTest extends AbstractPersistentPreferenceTest<Boolean> {
   @Override protected Boolean firstUniqueValue() {

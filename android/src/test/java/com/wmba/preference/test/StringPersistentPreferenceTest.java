@@ -1,7 +1,7 @@
 package com.wmba.preference.test;
 
 import com.wmba.preference.Preference;
-import com.wmba.preference.android.persist.StringPersistentPreference;
+import com.wmba.preference.StringPersistentPreference;
 
 public class StringPersistentPreferenceTest extends AbstractPersistentPreferenceTest<String> {
   @Override protected String firstUniqueValue() {

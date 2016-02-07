@@ -1,7 +1,7 @@
 package com.wmba.preference.test;
 
 import com.wmba.preference.Preference;
-import com.wmba.preference.android.persist.FloatPersistentPreference;
+import com.wmba.preference.FloatPersistentPreference;
 
 public class FloatPersistentPreferenceTest extends AbstractPersistentPreferenceTest<Float> {
   @Override protected Float firstUniqueValue() {

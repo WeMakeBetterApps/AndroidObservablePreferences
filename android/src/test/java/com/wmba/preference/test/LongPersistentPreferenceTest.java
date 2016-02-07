@@ -1,7 +1,7 @@
 package com.wmba.preference.test;
 
 import com.wmba.preference.Preference;
-import com.wmba.preference.android.persist.LongPersistentPreference;
+import com.wmba.preference.LongPersistentPreference;
 
 public class LongPersistentPreferenceTest extends AbstractPersistentPreferenceTest<Long> {
   @Override protected Long firstUniqueValue() {

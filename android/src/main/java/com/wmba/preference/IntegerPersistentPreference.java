@@ -1,8 +1,6 @@
-package com.wmba.preference.android.persist;
+package com.wmba.preference;
 
 import android.content.SharedPreferences;
-
-import com.wmba.preference.IntegerPreference;
 
 public class IntegerPersistentPreference extends AbstractPersistentPreference<Integer>
     implements IntegerPreference {
