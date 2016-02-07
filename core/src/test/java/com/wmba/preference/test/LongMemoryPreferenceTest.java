@@ -1,7 +1,7 @@
 package com.wmba.preference.test;
 
 import com.wmba.preference.Preference;
-import com.wmba.preference.memory.LongMemoryPreference;
+import com.wmba.preference.LongMemoryPreference;
 
 public class LongMemoryPreferenceTest extends AbstractPreferenceTest<Long> {
   @Override protected Long firstUniqueValue() {

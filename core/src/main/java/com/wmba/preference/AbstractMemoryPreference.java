@@ -1,4 +1,4 @@
-package com.wmba.preference.memory;
+package com.wmba.preference;
 
 import com.wmba.preference.Preference;
 

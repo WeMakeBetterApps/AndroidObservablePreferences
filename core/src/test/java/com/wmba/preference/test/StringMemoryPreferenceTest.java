@@ -1,7 +1,7 @@
 package com.wmba.preference.test;
 
 import com.wmba.preference.Preference;
-import com.wmba.preference.memory.StringMemoryPreference;
+import com.wmba.preference.StringMemoryPreference;
 
 public class StringMemoryPreferenceTest extends AbstractPreferenceTest<String> {
   @Override protected String firstUniqueValue() {

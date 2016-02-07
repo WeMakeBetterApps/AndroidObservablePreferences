@@ -1,7 +1,7 @@
 package com.wmba.preference.test;
 
 import com.wmba.preference.Preference;
-import com.wmba.preference.memory.BooleanMemoryPreference;
+import com.wmba.preference.BooleanMemoryPreference;
 
 public class BooleanMemoryPreferenceTest extends AbstractPreferenceTest<Boolean> {
   @Override protected Boolean firstUniqueValue() {

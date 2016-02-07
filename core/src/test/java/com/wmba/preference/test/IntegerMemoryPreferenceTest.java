@@ -1,7 +1,7 @@
 package com.wmba.preference.test;
 
 import com.wmba.preference.Preference;
-import com.wmba.preference.memory.IntegerMemoryPreference;
+import com.wmba.preference.IntegerMemoryPreference;
 
 public class IntegerMemoryPreferenceTest extends AbstractPreferenceTest<Integer> {
   @Override protected Integer firstUniqueValue() {

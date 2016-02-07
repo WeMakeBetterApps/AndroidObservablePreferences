@@ -1,7 +1,7 @@
 package com.wmba.preference.test;
 
 import com.wmba.preference.Preference;
-import com.wmba.preference.memory.FloatMemoryPreference;
+import com.wmba.preference.FloatMemoryPreference;
 
 public class FloatMemoryPreferenceTest extends AbstractPreferenceTest<Float> {
   @Override protected Float firstUniqueValue() {

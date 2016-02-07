@@ -1,6 +1,4 @@
-package com.wmba.preference.memory;
-
-import com.wmba.preference.BooleanPreference;
+package com.wmba.preference;
 
 public class BooleanMemoryPreference extends AbstractMemoryPreference<Boolean> implements BooleanPreference {
   public BooleanMemoryPreference(Boolean defaultValue) {
