@@ -14,8 +14,8 @@ import static org.junit.Assert.assertTrue;
 
 @SuppressWarnings("unchecked")
 public abstract class AbstractPreferenceTest<T> {
-  private T mValue1;
-  private T mValue2;
+  protected T mValue1;
+  protected T mValue2;
 
   protected abstract T firstUniqueValue();
   protected abstract T secondUniqueValue();
