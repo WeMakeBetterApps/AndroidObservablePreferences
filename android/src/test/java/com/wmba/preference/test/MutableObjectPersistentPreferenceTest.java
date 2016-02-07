@@ -21,6 +21,10 @@ public class MutableObjectPersistentPreferenceTest extends MutableObjectMemoryPr
       }
     };
     return new ObjectPersistentPreference<TestObject>(new MockSharedPreferences(), "test_key",
-        preferenceSerializer, new TypeToken<TestObject>() {}.getType(), defaultValue);
+        preferenceSerializer, new TypeToken<TestObject>() {}.getType(), defaultValue) {
+      @Override protected TestObject copy(TestObject value) {
+        return new TestObject(value.getStringValue(), value.getIntValue());
+      }
+    };
   }
 }
