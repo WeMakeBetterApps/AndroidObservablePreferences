@@ -12,6 +12,6 @@ sourceSets.test.compileClasspath += configurations.providedCompile
 sourceSets.test.runtimeClasspath += configurations.providedCompile
 
 dependencies {
-    providedCompile 'io.reactivex:rxjava:1.0.14'
-    testCompile 'junit:junit:4.11'
+    providedCompile 'io.reactivex:rxjava:1.1.0'
+    testCompile 'junit:junit:4.12'
 }
