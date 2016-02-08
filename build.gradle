@@ -1,2 +1,4 @@
-group 'com.wemakebetterapps'
-version '1.0'
+subprojects {
+    group 'com.wemakebetterapps'
+    version '1.0.0'
+}

@@ -1,4 +1,3 @@
 rootProject.name = 'observablepreferences'
 include ':android'
 include ':core'
-include ':android-object'
