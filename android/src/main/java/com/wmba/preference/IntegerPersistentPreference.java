@@ -23,6 +23,6 @@ public class IntegerPersistentPreference extends AbstractPersistentPreference<In
 
   @Override
   protected void saveInPreferences(SharedPreferences preferences, String key, Integer value) {
-    preferences.edit().putFloat(key, value).apply();
+    preferences.edit().putInt(key, value).apply();
   }
 }
